@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_AllTypeWiseReport" targetNamespace="http://tempuri.org/ds_AllTypeWiseReport.xsd" xmlns:mstns="http://tempuri.org/ds_AllTypeWiseReport.xsd" xmlns="http://tempuri.org/ds_AllTypeWiseReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_AllTypeWiseReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_AllTypeWiseReport" msprop:Generator_UserDSName="ds_AllTypeWiseReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TotallTypeReport" msprop:Generator_TableClassName="TotallTypeReportDataTable" msprop:Generator_TableVarName="tableTotallTypeReport" msprop:Generator_RowChangedName="TotallTypeReportRowChanged" msprop:Generator_TablePropName="TotallTypeReport" msprop:Generator_RowDeletingName="TotallTypeReportRowDeleting" msprop:Generator_RowChangingName="TotallTypeReportRowChanging" msprop:Generator_RowEvHandlerName="TotallTypeReportRowChangeEventHandler" msprop:Generator_RowDeletedName="TotallTypeReportRowDeleted" msprop:Generator_RowClassName="TotallTypeReportRow" msprop:Generator_UserTableName="TotallTypeReport" msprop:Generator_RowEvArgName="TotallTypeReportRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TypeName" msprop:Generator_ColumnVarNameInTable="columnTypeName" msprop:Generator_ColumnPropNameInRow="TypeName" msprop:Generator_ColumnPropNameInTable="TypeNameColumn" msprop:Generator_UserColumnName="TypeName" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalTestTypeWise" msprop:Generator_ColumnVarNameInTable="columnTotalTestTypeWise" msprop:Generator_ColumnPropNameInRow="TotalTestTypeWise" msprop:Generator_ColumnPropNameInTable="TotalTestTypeWiseColumn" msprop:Generator_UserColumnName="TotalTestTypeWise" type="xs:string" minOccurs="0" />
+              <xs:element name="TotallAmount" msprop:Generator_ColumnVarNameInTable="columnTotallAmount" msprop:Generator_ColumnPropNameInRow="TotallAmount" msprop:Generator_ColumnPropNameInTable="TotallAmountColumn" msprop:Generator_UserColumnName="TotallAmount" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="totall" msprop:Generator_TableClassName="totallDataTable" msprop:Generator_TableVarName="tabletotall" msprop:Generator_RowChangedName="totallRowChanged" msprop:Generator_TablePropName="totall" msprop:Generator_RowDeletingName="totallRowDeleting" msprop:Generator_RowChangingName="totallRowChanging" msprop:Generator_RowEvHandlerName="totallRowChangeEventHandler" msprop:Generator_RowDeletedName="totallRowDeleted" msprop:Generator_RowClassName="totallRow" msprop:Generator_UserTableName="totall" msprop:Generator_RowEvArgName="totallRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Totall" msprop:Generator_ColumnVarNameInTable="columnTotall" msprop:Generator_ColumnPropNameInRow="Totall" msprop:Generator_ColumnPropNameInTable="TotallColumn" msprop:Generator_UserColumnName="Totall" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
